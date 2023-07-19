@@ -125,12 +125,12 @@ const Home = () => {
                                     </span>
                                 </button>
                                 <div className="icon">
-                                    <i className="fas  fa-basket-shopping mx-3 fas1"></i>
-                                    <i class="fas fa-cart-shopping mx-3 fas1"></i>
-                                    <i class="fas fa-shop mx-3 fas1"></i>
-                                    <i class="fas fa-cart-flatbed mt-1 mx-3 fas1"></i>
+                                    <Navlink to="/"><i className="fas  fa-basket-shopping mx-3 fas1"></i></Navlink>
+                                    <Navlink to="/"><i class="fas fa-cart-shopping mx-3 fas1"></i></Navlink>
+                                    <Navlink to="/"><i class="fas fa-shop mx-3 fas1"></i></Navlink>
+                                    <Navlink to="/"><i class="fas fa-cart-flatbed mt-1 mx-3 fas1"></i></Navlink>
                                 </div>
-                                <a href="www.google.com">see all apps ></a>
+                                <NavLink to="www.google.com">see all apps ></NavLink>
                             </div>
                         </div>
                     </div>
@@ -150,7 +150,7 @@ const Home = () => {
                                         src="/images/fruits2.jpg"
                                         className="w-100 image"
                                     />
-                                    <a href="#!">
+                                    <NavLink to="#!">
                                         <div className="mask">
                                         </div>
                                         <div className="hover-overlay">
@@ -159,7 +159,7 @@ const Home = () => {
                                                 style={{ backgroundColor: "rgba(251, 251, 251, 0.15)"}}
                                             />
                                         </div>
-                                    </a>
+                                    </NavLink>
                                     <div className="card-text px-3 mt-4">
                                         <h1>Rich in Essential Nutrients</h1>
                                         <p >Fruits are packed with essential vitamins, minerals, and antioxidants that are vital for various bodily functions.</p>
@@ -178,7 +178,7 @@ const Home = () => {
                                         src="/images/fruits3.jpg"
                                         className="w-100 image"
                                     />
-                                    <a href="#!">
+                                    <NavLink to="#!">
                                         <div className="mask">
                                         </div>
                                         <div className="hover-overlay">
@@ -187,7 +187,7 @@ const Home = () => {
                                                 style={{ backgroundColor: "rgba(251, 251, 251, 0.15)" }}
                                             />
                                         </div>
-                                    </a>
+                                    </NavLink>
                                     <div className="card-text px-3 mt-4">
                                         <h1>Improved Mood and Mental Health</h1>
                                         <p >Some fruits, like bananas, are rich in tryptophan, a precursor to serotonin, a neurotransmitter that contributes to feelings of well-being and happiness</p>
@@ -206,7 +206,7 @@ const Home = () => {
                                         src="/images/fruits4.jpg"
                                         className="w-100 image"
                                     />
-                                    <a href="#!">
+                                    <Navlink to="#!">
                                         <div className="mask">
                                         </div>
                                         <div className="hover-overlay">
@@ -215,7 +215,7 @@ const Home = () => {
                                                 style={{ backgroundColor: "rgba(251, 251, 251, 0.15)" }}
                                             />
                                         </div>
-                                    </a>
+                                    </Navlink>
                                     <div className="card-text px-3 mt-4">
                                         <h1>Reduces the Risk of Chronic Diseases</h1>
                                         <p >Regular consumption of fruits has been associated with a reduced risk of chronic diseases, such as type 2 diabetes, certain cancers, and heart disease.</p>
